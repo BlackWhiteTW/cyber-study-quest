@@ -3181,11 +3181,17 @@ function renderMathText(text){
   let last = 0;
   const re = /(\$\$[\s\S]*?\$\$|\$[^$\n]*?\$)/g;
   let m;
+  
   while((m = re.exec(raw))){
     out += escapeHtmlLocal(raw.slice(last, m.index));
     const token = m[0];
     const display = token.startsWith("$$");
-    const expr = display ? token.slice(2, -2) : token.slice(1, -1);
+    
+    let expr = display ? token.slice(2, -2) : token.slice(1, -1);
+    expr = expr.replace(/\\?(sqrt|div|cdot|pi|theta|alpha|beta|gamma|triangle|angle|pm|geq?|leq?|neq|circ|Rightarrow|Leftarrow|infty)/g, '\\$1');
+    expr = expr.replace(/\f?rac/g, '\\frac').replace(/\t?imes/g, '\\times');
+    expr = expr.replace(/\\?(int|oint) /g, '\\$1 ');
+
     out += `<span class="${display ? "math-display" : "math-inline"}">${renderLatexLite(expr)}</span>`;
     last = m.index + token.length;
   }
