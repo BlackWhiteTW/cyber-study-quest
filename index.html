@@ -7,6 +7,52 @@
   <title>會考貓貓冒險</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const renderMath = () => {
+        if (window.renderMathInElement) {
+          renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+            ],
+            throwOnError: false
+          });
+        }
+      };
+      
+      // 初始渲染
+      setTimeout(renderMath, 100);
+      
+      // 監聽 DOM 變化（當 JS 動態載入新題目時，自動重新渲染數學符號）
+      let timeout = null;
+      const observer = new MutationObserver(() => {
+        clearTimeout(timeout);
+        timeout = setTimeout(renderMath, 100);
+      });
+      // 觀察整個 body，若題目區塊更新就會觸發
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  </script>
+
+  <style>
+    /* 修正中文字與數學符號排版問題，避免字分離或過度相黏 */
+    .question-text, .cap-question-text, .choices {
+      word-break: break-word !important; /* 避免英文或符號將中文字不正常截斷 */
+      white-space: pre-wrap; /* 支援換行但會自動折行 */
+      line-height: 1.8 !important; /* 加大行高避免上下行擠在一起 */
+      letter-spacing: 0.05em; /* 稍微增加字距 */
+      text-align: justify; /* 左右對齊讓版面整齊 */
+    }
+    .katex {
+      margin: 0 0.2em; /* 讓數學符號與兩側中文字保持適當微小距離，避免過度相黏 */
+    }
+  </style>
+
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
@@ -579,7 +625,7 @@
   <script src="./question_bank_english.js"></script>
   <script src="./question_bank_math.js"></script>
   <script src="./question_bank_science.js"></script>
-  <script src="./question_bank_social.js"></script>
+  <script src="./social.js"></script>
   <script src="./data.js"></script>
   <script src="./app.js"></script>
   <div id="bossFinisherOverlay" class="boss-finisher-overlay" aria-hidden="true">
