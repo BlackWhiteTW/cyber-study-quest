@@ -435,7 +435,7 @@ window.MY_MATH_BANK = [
   {
     "Category_ID": "A4-1",
     "Topic_Name": "平方根與畢氏定理",
-    "Question": "計算 $(\\sqrt{50}+\\sqrt{18}) \\div \\sqrt{2}$ 的值為何？",
+    "Question": "計算 $\\dfrac{\\sqrt{50}+\\sqrt{18}}{\\sqrt{2}}$ 的值為何？",
     "Options": {
       "A": "$4$",
       "B": "$6$",
@@ -480,7 +480,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "對照會考常見直角三角形邊長關係題型（自製教科書風圖示）",
       "AI_Draw_Prompt": "Draw a clean 2D geometry diagram on a white background with black lines in textbook style. Show right triangle ABC with C at the lower left, B at the lower right, and A at the upper left. Mark angle C as a right angle with a small square. Label AC = 6 on the vertical leg, BC = 8 on the horizontal leg, and label the hypotenuse AB as x. Use clear serif point labels A, B, C and simple high-contrast line art.",
-      "Local_Image": "./assets/math/a4_right_triangle_pythagoras.png",
+      "Local_Image": "./assets/img/math/a4_right_triangle_pythagoras.png",
       "Alt_Text": "直角三角形 ABC，AC=6，BC=8，AB=x，C 為直角"
     }
   },
@@ -983,7 +983,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "對照會考常見平面座標與直線交點判讀題型（自製教科書風圖示）",
       "AI_Draw_Prompt": "Draw a clean 2D coordinate plane on a white background with black lines and light gray grid. Show x-axis and y-axis, label O, x, y. Draw two straight lines: line l through points (0,2) and (6,8), and line m through points (0,6) and (6,0). Mark their intersection P clearly. Use textbook-style labels and high contrast.",
-      "Local_Image": "./assets/math/b2_line_intersection.svg",
+      "Local_Image": "./assets/img/math/b2_line_intersection.svg",
       "Alt_Text": "平面座標圖，兩直線 l 與 m 交於 P"
     }
   },
@@ -1120,7 +1120,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "對照會考常見二次函數頂點式與對稱軸判讀題型（自製教科書風圖示）",
       "AI_Draw_Prompt": "Draw a clean 2D coordinate plane on a white background with black axes and light gray grid. Draw an upward-opening parabola y=(x-2)^2-3. Mark the vertex V(2,-3) clearly and draw a dashed vertical symmetry axis x=2. Use textbook-style black line art, clear labels, and no decorative elements.",
-      "Local_Image": "./assets/math/b4_parabola_vertex.svg",
+      "Local_Image": "./assets/img/math/b4_parabola_vertex.svg",
       "Alt_Text": "拋物線 y=(x-2)^2-3，頂點 V(2,-3)，對稱軸 x=2"
     }
   },
@@ -1202,7 +1202,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_parallel_angles.svg",
+      "Local_Image": "./assets/img/math/c1_parallel_angles.svg",
       "Alt_Text": "兩平行線被截線所截，內錯角為 68 度與 x"
     }
   },
@@ -1228,7 +1228,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_triangle_exterior.svg",
+      "Local_Image": "./assets/img/math/c1_triangle_exterior.svg",
       "Alt_Text": "三角形外角為 120 度，一內角為 45 度，另一內角為 x"
     }
   },
@@ -1280,7 +1280,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_quadrilateral_angles.svg",
+      "Local_Image": "./assets/img/math/c1_quadrilateral_angles.svg",
       "Alt_Text": "四邊形三角度為 82 96 110，第四角為 x"
     }
   },
@@ -1306,7 +1306,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_fold_angle.svg",
+      "Local_Image": "./assets/img/math/c1_fold_angle.svg",
       "Alt_Text": "摺線為虛線，摺前摺後線段夾角 70 度"
     }
   },
@@ -1358,7 +1358,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_congruence_triangles.svg",
+      "Local_Image": "./assets/img/math/c1_congruence_triangles.svg",
       "Alt_Text": "兩個三角形三組對應邊長相等"
     }
   },
@@ -1385,7 +1385,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_isosceles_triangle.svg",
+      "Local_Image": "./assets/img/math/c1_isosceles_triangle.svg",
       "Alt_Text": "等腰三角形頂角 40 度，兩底角為 x"
     }
   },
@@ -1438,7 +1438,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_trapezoid_angles.svg",
+      "Local_Image": "./assets/img/math/c1_trapezoid_angles.svg",
       "Alt_Text": "梯形上底與下底平行，同側內角 72 度與 x"
     }
   },
@@ -1492,7 +1492,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_vertical_angles.svg",
+      "Local_Image": "./assets/img/math/c1_vertical_angles.svg",
       "Alt_Text": "兩直線相交，對頂角為 3x+10 度與 5x-30 度"
     }
   },
@@ -1518,7 +1518,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_pentagon_angles.svg",
+      "Local_Image": "./assets/img/math/c1_pentagon_angles.svg",
       "Alt_Text": "五邊形四角已知，第五角 x"
     }
   },
@@ -1570,7 +1570,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_parallel_strip.svg",
+      "Local_Image": "./assets/img/math/c1_parallel_strip.svg",
       "Alt_Text": "兩平行線與截線，上方角 50 度，下方角 x"
     }
   },
@@ -1625,7 +1625,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c1_sas_bridge.svg",
+      "Local_Image": "./assets/img/math/c1_sas_bridge.svg",
       "Alt_Text": "橋架中左右三角形，共用邊且兩邊夾角相等"
     }
   },
@@ -1732,7 +1732,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c2_shadow_similarity.svg",
+      "Local_Image": "./assets/img/math/c2_shadow_similarity.svg",
       "Alt_Text": "人與旗桿的高度和影長形成相似三角形"
     }
   },
@@ -1761,7 +1761,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c2_similar_triangle_parallel.svg",
+      "Local_Image": "./assets/img/math/c2_similar_triangle_parallel.svg",
       "Alt_Text": "三角形中 DE 平行 AC，形成相似三角形"
     }
   },
@@ -1787,7 +1787,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c2_area_ratio.svg",
+      "Local_Image": "./assets/img/math/c2_area_ratio.svg",
       "Alt_Text": "兩個相似三角形，邊長比 6 比 10"
     }
   },
@@ -1945,7 +1945,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c3_circle_angles.svg",
+      "Local_Image": "./assets/img/math/c3_circle_angles.svg",
       "Alt_Text": "圓心角 120 度與同弧圓周角 x"
     }
   },
@@ -2000,7 +2000,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c3_tangent_radius.svg",
+      "Local_Image": "./assets/img/math/c3_tangent_radius.svg",
       "Alt_Text": "圓外一點 P 作切線 PT，OT 垂直 PT，OP=13，OT=5"
     }
   },
@@ -2054,7 +2054,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c3_sector_area.svg",
+      "Local_Image": "./assets/img/math/c3_sector_area.svg",
       "Alt_Text": "半徑 6 圓心角 60 度的扇形"
     }
   },
@@ -2108,7 +2108,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c4_circumcenter.svg",
+      "Local_Image": "./assets/img/math/c4_circumcenter.svg",
       "Alt_Text": "三角形外心 O 到三頂點距離相等"
     }
   },
@@ -2135,7 +2135,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c4_incenter.svg",
+      "Local_Image": "./assets/img/math/c4_incenter.svg",
       "Alt_Text": "三角形內心 I 到三邊距離相等"
     }
   },
@@ -2162,7 +2162,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c4_centroid.svg",
+      "Local_Image": "./assets/img/math/c4_centroid.svg",
       "Alt_Text": "三角形中線 AD 上的重心 G，AG=10，求 GD"
     }
   },
@@ -2216,7 +2216,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風圖示",
       "AI_Draw_Prompt": "Create a clean 2D geometry vector diagram for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear point labels, clear angle or length labels, no color fill, no shading, and no decorations.",
-      "Local_Image": "./assets/math/c4_incenter_angle.svg",
+      "Local_Image": "./assets/img/math/c4_incenter_angle.svg",
       "Alt_Text": "三角形內心 I，角 A 為 60 度，角 B 為 70 度，求角 AIB"
     }
   },
@@ -2511,7 +2511,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風統計圖",
       "AI_Draw_Prompt": "Create a clean 2D statistical chart for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear labels, no color fill except light gray bars, no shading, and no decorations.",
-      "Local_Image": "./assets/math/d3_histogram_scores.svg",
+      "Local_Image": "./assets/img/math/d3_histogram_scores.svg",
       "Alt_Text": "數學小考成績分布直方圖"
     }
   },
@@ -2537,7 +2537,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風統計圖",
       "AI_Draw_Prompt": "Create a clean 2D statistical chart for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear labels, no color fill except light gray bars, no shading, and no decorations.",
-      "Local_Image": "./assets/math/d3_line_chart_temp.svg",
+      "Local_Image": "./assets/img/math/d3_line_chart_temp.svg",
       "Alt_Text": "星期一到星期六平均氣溫折線圖"
     }
   },
@@ -2617,7 +2617,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風統計圖",
       "AI_Draw_Prompt": "Create a clean 2D statistical chart for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear labels, no color fill except light gray bars, no shading, and no decorations.",
-      "Local_Image": "./assets/math/d3_boxplot.svg",
+      "Local_Image": "./assets/img/math/d3_boxplot.svg",
       "Alt_Text": "成績分布盒狀圖，Q1=65，中位數=75，Q3=85"
     }
   },
@@ -2643,7 +2643,7 @@ window.MY_MATH_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考教科書風統計圖",
       "AI_Draw_Prompt": "Create a clean 2D statistical chart for a Taiwan junior-high CAP-style math exam. Use a pure white background, black lines, textbook style, clear labels, no color fill except light gray bars, no shading, and no decorations.",
-      "Local_Image": "./assets/math/d3_spinner_probability.svg",
+      "Local_Image": "./assets/img/math/d3_spinner_probability.svg",
       "Alt_Text": "六等分轉盤，標示 1 到 6"
     }
   }

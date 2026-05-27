@@ -127,7 +127,7 @@ body {
 
 .nova-avatar {
   background:
-    url("./assets/nova_pixel_chibi.gif") center/cover no-repeat,
+    url("../assets/img/nova_pixel_chibi.gif") center/cover no-repeat,
     linear-gradient(135deg, var(--purple), var(--blue));
   color: transparent;
   image-rendering: pixelated;
@@ -193,12 +193,12 @@ body {
 
 /* ===== v0.9 GIF Nova Update ===== */
 .nova-sprite-img {
-  content: url("./assets/nova_pixel_chibi.gif");
+  content: url("../assets/img/nova_pixel_chibi.gif");
 }
 
 .nova-avatar {
   background-image:
-    url("./assets/nova_pixel_chibi.gif"),
+    url("../assets/img/nova_pixel_chibi.gif"),
     linear-gradient(135deg, var(--purple), var(--blue));
   background-size: cover;
   background-position: center;
@@ -1307,7 +1307,7 @@ body{
 }
 .nova-name-line{color:#fde68a;letter-spacing:.04em}
 .nova-avatar{
-  background:url("./assets/nova_pixel_chibi.gif") center/cover no-repeat, #334155;
+  background:url("../assets/img/nova_pixel_chibi.gif") center/cover no-repeat, #334155;
   box-shadow:0 6px 16px rgba(2,6,23,.22);
 }
 .question-card{

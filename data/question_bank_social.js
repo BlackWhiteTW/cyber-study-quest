@@ -24,7 +24,7 @@ window.MY_SOCIAL_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考社會科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style social studies chart/map for a Taiwan CAP exam. White background, clear labels, high readability.",
-      "Local_Image": "./assets/social/geo_contour_map.svg",
+      "Local_Image": "./assets/img/social/geo_contour_map.svg",
       "Alt_Text": "等高線地形圖"
     }
   },
@@ -633,7 +633,7 @@ window.MY_SOCIAL_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考社會科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style social studies chart/map for a Taiwan CAP exam. White background, clear labels, high readability.",
-      "Local_Image": "./assets/social/geo_population_pyramid.svg",
+      "Local_Image": "./assets/img/social/geo_population_pyramid.svg",
       "Alt_Text": "人口金字塔"
     }
   },
@@ -2286,7 +2286,7 @@ window.MY_SOCIAL_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考社會科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style social studies chart/map for a Taiwan CAP exam. White background, clear labels, high readability.",
-      "Local_Image": "./assets/social/civ_family_tree.svg",
+      "Local_Image": "./assets/img/social/civ_family_tree.svg",
       "Alt_Text": "親屬關係圖"
     }
   },
@@ -2518,7 +2518,7 @@ window.MY_SOCIAL_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考社會科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style social studies chart/map for a Taiwan CAP exam. White background, clear labels, high readability.",
-      "Local_Image": "./assets/social/civ_supply_demand.svg",
+      "Local_Image": "./assets/img/social/civ_supply_demand.svg",
       "Alt_Text": "需求增加示意圖"
     }
   },

@@ -115,7 +115,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/bio_transpiration_bar.svg",
+      "Local_Image": "./assets/img/science/bio_transpiration_bar.svg",
       "Alt_Text": "蒸散作用氣泡移動距離長條圖"
     }
   },
@@ -145,7 +145,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/bio_transpiration_bar.svg",
+      "Local_Image": "./assets/img/science/bio_transpiration_bar.svg",
       "Alt_Text": "蒸散作用氣泡移動距離長條圖"
     }
   },
@@ -685,7 +685,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/bio_food_web.svg",
+      "Local_Image": "./assets/img/science/bio_food_web.svg",
       "Alt_Text": "草原食物網"
     }
   },
@@ -715,7 +715,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/bio_food_web.svg",
+      "Local_Image": "./assets/img/science/bio_food_web.svg",
       "Alt_Text": "草原食物網"
     }
   },
@@ -1615,7 +1615,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/phy_heating_curve.svg",
+      "Local_Image": "./assets/img/science/phy_heating_curve.svg",
       "Alt_Text": "純物質加熱曲線"
     }
   },
@@ -2095,7 +2095,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/phy_motion_graph.svg",
+      "Local_Image": "./assets/img/science/phy_motion_graph.svg",
       "Alt_Text": "距離時間圖"
     }
   },
@@ -2185,7 +2185,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/phy_circuit_parallel.svg",
+      "Local_Image": "./assets/img/science/phy_circuit_parallel.svg",
       "Alt_Text": "並聯電路圖"
     }
   },
@@ -2455,7 +2455,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/earth_moon_phases.svg",
+      "Local_Image": "./assets/img/science/earth_moon_phases.svg",
       "Alt_Text": "日地月相對位置圖"
     }
   },
@@ -2635,7 +2635,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/earth_plate_boundary.svg",
+      "Local_Image": "./assets/img/science/earth_plate_boundary.svg",
       "Alt_Text": "聚合性板塊邊界與隱沒示意圖"
     }
   },
@@ -2755,7 +2755,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/earth_rock_layers.svg",
+      "Local_Image": "./assets/img/science/earth_rock_layers.svg",
       "Alt_Text": "岩層與斷層切割關係圖"
     }
   },
@@ -2785,7 +2785,7 @@ window.MY_SCIENCE_BANK = [
       "Need_Image": true,
       "Past_Exam_Reference": "自製仿會考自然科圖表",
       "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
-      "Local_Image": "./assets/science/earth_weather_front.svg",
+      "Local_Image": "./assets/img/science/earth_weather_front.svg",
       "Alt_Text": "臺灣附近滯留鋒示意圖"
     }
   },
